@@ -1,7 +1,7 @@
 import sys
 #sys.path.insert(0, 'C:/Users/Tor/Desktop/Programming/Packages/Maestro-master')
 import maestro
-#servo = maestro.Controller('ttyACM0')
+servo = maestro.Controller()
 servo.setAccel(0,0)
 servo.setAccel(1,0)
 servo.setSpeed(0,0)
