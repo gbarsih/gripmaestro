@@ -1,7 +1,7 @@
 import sys
-sys.path.insert(0, 'C:/Users/Tor/Desktop/Programming/Packages/Maestro-master')
+#sys.path.insert(0, 'C:/Users/Tor/Desktop/Programming/Packages/Maestro-master')
 import maestro
-servo = maestro.Controller('COM8')
+servo = maestro.Controller('ttyACM1')
 servo.setAccel(0,0)
 servo.setAccel(1,0)
 servo.setSpeed(0,0)
@@ -15,7 +15,7 @@ def grip():
     servo.setTarget(0,7700)
     servo.setTarget(1,8100)
 
-input("go")
-drop()
-input("go")
+#input("go")
+#drop()
+#input("go")
 grip()
