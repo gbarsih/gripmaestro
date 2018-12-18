@@ -7,15 +7,18 @@ servo.setAccel(1,0)
 servo.setSpeed(0,0)
 servo.setSpeed(1,0)
 
-def drop():
-    servo.setTarget(0,1000)
-    servo.setTarget(1,1000)
+#def drop():
+#    servo.setTarget(0,1000)
+#    servo.setTarget(1,1000)
 
-def grip():
-    servo.setTarget(0,7700)
-    servo.setTarget(1,8100)
+#def grip():
+#    servo.setTarget(0,7700)
+#    servo.setTarget(1,8100)
 
-input("go")
-drop()
-input("go")
-grip()
+#input("go")
+#drop()
+#input("go")
+#grip()
+
+servo.setTarget(0,1000)
+servo.setTarget(1,1000)
