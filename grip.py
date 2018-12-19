@@ -21,6 +21,7 @@ servo.setSpeed(1,0)
 #input("go")
 #grip()
 
+time.sleep(2)
 servo.setTarget(0,1000)
 servo.setTarget(1,1000)
 time.sleep(2)
